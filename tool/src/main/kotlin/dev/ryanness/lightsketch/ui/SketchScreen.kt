@@ -299,9 +299,7 @@ class SketchScreen(
                                 onToggleExpanded = { trayExpanded = !trayExpanded },
                                 onSelectTool = { viewModel.selectTool(it) },
                                 onUndo = { viewModel.undo() },
-                                onEraserLongPress = {
-                                    if (doc?.paginationEnabled == true) pendingClearPage = true
-                                },
+                                onEraserLongPress = { if (doc != null) pendingClearPage = true },
                                 modifier = Modifier
                                     .align(Alignment.BottomEnd)
                                     .padding(1f.gridUnitsAsDp()),
