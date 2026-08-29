@@ -22,7 +22,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "light-sdk-template"
+rootProject.name = "light-sketch"
 
 // Apply local light-sdk-patch/*.patch to the light-sdk submodule before its build
 // files/sources are read below. This is reverted in buildFinished to keep the submodule clean.

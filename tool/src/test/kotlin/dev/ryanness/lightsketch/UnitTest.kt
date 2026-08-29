@@ -1,4 +1,4 @@
-package dev.garado.template
+package dev.ryanness.lightsketch
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

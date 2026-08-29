@@ -1,9 +1,9 @@
 [tool]
-id = "dev.garado.template"
-label = "Light SDK Tool"
+id = "dev.ryanness.lightsketch"
+label = "Sketch"
 versionCode = 1
 versionName = "0.1.0"
-permissions = ["android.permission.INTERNET"]
+permissions = []
 # change if you run this on the emulator instead of a real LP3!
 serverPackage = "com.lightos"
 # serverPackage = "com.thelightphone.sdk.emulator"
