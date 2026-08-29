@@ -26,7 +26,7 @@ The idea for this app traces back to Light's ["A Light Afternoon at Index"](http
 
 ## Install the APK
 
-This hasn't been published to a release yet — build it yourself with the instructions below, either for an emulator matching the Light Phone III's spec or for a real device.
+Grab the latest build from [Releases](https://github.com/rn-os/light-sketch/releases/latest) and sideload it onto a Light Phone III in developer mode.
 
 ## Getting started
 
